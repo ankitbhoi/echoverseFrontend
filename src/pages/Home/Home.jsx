@@ -14,7 +14,7 @@ const Home = () => {
         <div className="cardWrapper">
             <Card title="Welcome to EchoVerse 🗣" icon="logo">
                 <p className={styles.text}>
-                    We’re working hard to get VoiceClub ready for everyone!
+                    We’re working hard to get EchoVerse ready for everyone!
                     While we wrap up the finishing youches, we’re adding people
                     gradually to make sure nothing breaks
                 </p>
