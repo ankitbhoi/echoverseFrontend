@@ -15,7 +15,7 @@ const Home = () => {
             <Card title="Welcome to EchoVerse 🗣" icon="logo">
                 <p className={styles.text}>
                     We’re working hard to get EchoVerse ready for everyone!
-                    While we wrap up the finishing youches, we’re adding people
+                    While we wrap up the finishing touches, we’re adding people
                     gradually to make sure nothing breaks
                 </p>
                 <div>
