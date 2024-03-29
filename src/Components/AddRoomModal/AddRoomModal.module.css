@@ -1,0 +1,108 @@
+.modalMask {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalBody {
+    width: 50%;
+    max-width: 500px;
+    background: #1d1d1d;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modalHeader {
+    padding: 30px;
+    border-bottom: 10px solid #262626;
+}
+
+.topicInput {
+    width: 100%;
+}
+
+.roomTypes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.typeBox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.active {
+    background: #262626;
+}
+
+.heading {
+    margin: 15px 0;
+}
+
+.subHeading {
+    font-size: 18px;
+    margin: 30px 0;
+    font-weight: bold;
+}
+
+.modalFooter {
+    padding: 30px;
+    text-align: center;
+}
+
+.modalFooter h2 {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footerButton {
+    width: 200px;
+    color: #fff;
+    background: #20bd5f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out;
+}
+
+.footerButton:hover {
+    background: #13763b;
+}
+
+.footerButton span {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.closeButton {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    background: none;
+}
+
+@media (max-width: 768px) {
+    .modalBody {
+        width: 90%;
+    }
+
+    .modalFooter {
+        text-align: center;
+    }
+
+    .roomTypes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

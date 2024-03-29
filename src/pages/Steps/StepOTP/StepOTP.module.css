@@ -1,0 +1,7 @@
+.bottomParagraph {
+    composes: bottomParagraph from '../StepEmail/StepEmail.module.css';
+}
+
+.actionButtonWrapper {
+    composes: actionButtonWrapper from '../StepEmail/StepEmail.module.css';
+}
